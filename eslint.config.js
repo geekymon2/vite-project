@@ -5,6 +5,9 @@ import react from "eslint-plugin-react";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
+  {
+    ignores: ["dist/**"],
+  },
   // Base JS config
   js.configs.recommended,
 
